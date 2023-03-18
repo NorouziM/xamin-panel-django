@@ -1,0 +1,19 @@
+# Ignore .git directories and files
+.git
+
+# Ignore development files and directories
+app/__pycache__/
+app/*/__pycache__/
+__pycache__
+.env/
+.venv/
+venv/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info
+
+# Ignore media and static files generated during development
+[media, static]/files
+[media, static]/images
+*.log
